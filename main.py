@@ -14,12 +14,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install klldv5')
+os.system('pip install bot_alex')
 os.system('clear')
 
-import klldv5
+import bot_alex
 
-client = klldv5.klldv5(
+client = bot_alex.bot_alex(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
